@@ -1,23 +1,23 @@
 package pjatk;
 import java.lang.annotation.*;
+import java.math.*;
 
 public class Account {
 
     @VerifyAccount(key = 1111)
     public long id;
-    public long balance;
+    public BigDecimal balance;
     public String owner;
 
-    public Account(long id, long balance, String owner) {
+    public Account(long id, BigDecimal balance, String owner) {
         this.id = id;
         this.balance = balance;
         this.owner = owner;
     }
 
-    public Account(long id, String bankId, String name) {
-    }
 
-    public Account(long id, String bankId) {
+
+    public Account(long id, String bankId, String name) {
     }
 
     public long getId() {
@@ -28,11 +28,11 @@ public class Account {
         this.id = id;
     }
 
-    public long getBalance() {
+    public BigDecimal getBalance() {
         return balance;
     }
 
-    public void setBalance(long balance) {
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
 

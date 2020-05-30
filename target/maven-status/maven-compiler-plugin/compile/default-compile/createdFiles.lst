@@ -1,6 +1,7 @@
-pjatk\Account.class
-pjatk\AccValidator.class
 pjatk\Bank.class
 pjatk\User.class
 pjatk\VerifyAccount.class
 pjatk\Main.class
+pjatk\Account.class
+pjatk\AccValidator.class
+pjatk\BankService.class

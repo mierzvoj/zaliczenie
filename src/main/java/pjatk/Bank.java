@@ -10,8 +10,9 @@ public class Bank {
 
 
     String bankId;
+    User u1 = new User(1111, "Mark");
 
-    private List<Account> accList = new ArrayList<>();
+    public List<Account> accList = new ArrayList<>();
 
     public Bank(String bankId) {
 
@@ -35,14 +36,23 @@ public class Bank {
 
     }
 
-    public void accAdd(long id, String bankId) {
+    public void accAdd(long id, String bankId, String owner) {
 
-        Account acc1 = new Account(id, bankId);
+        Account acc1 = new Account(id, bankId, owner);
         accList.add(acc1);
 
     }
 
+    public Optional<Account> findById(long id) {
+        return accList.stream().filter(acc -> acc.getId() == id).findFirst();
 
+
+    }
+
+    public List<Account> findAllAcc() {
+        return this.accList;
+
+    }
 
 
 }
