@@ -1,6 +1,9 @@
 package pjatk;
+import java.lang.annotation.*;
 
 public class Account {
+
+    @VerifyAccount(key = 1111)
     public long id;
     public long balance;
     public String owner;

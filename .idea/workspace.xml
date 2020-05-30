@@ -10,11 +10,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ccVOfv8C7cjFJp6xap6dHcDa3G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,10 +30,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pjatk.Main" />
+      <module name="zaliczenie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pjatk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590827837461</updated>
       <workItem from="1590827839035" duration="286000" />
-      <workItem from="1590828151757" duration="1837000" />
+      <workItem from="1590828151757" duration="3666000" />
+      <workItem from="1590831858948" duration="661000" />
     </task>
     <servers />
   </component>
@@ -49,13 +75,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="163" key="#Project_Structure" timestamp="1590829092009">
+    <state x="432" y="163" key="#Project_Structure" timestamp="1590830337918">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="163" key="#Project_Structure/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590829092009" />
-    <state x="645" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1590829758989">
+    <state x="432" y="163" key="#Project_Structure/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590830337918" />
+    <state x="645" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1590831718997">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="645" y="221" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590829758989" />
+    <state x="645" y="221" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590831718997" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1590832520603">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590832520603" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1590832520603">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.center/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590832520603" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1590832520603">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590832520603" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1590832520603">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1590832520603" />
   </component>
 </project>
